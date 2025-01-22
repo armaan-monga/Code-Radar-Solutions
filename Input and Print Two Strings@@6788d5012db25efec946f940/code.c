@@ -2,7 +2,7 @@
 int main() {
     char n[100];
     fgets(n,100,stdin);
-    printf("You entered: %s");
+    printf("You entered: ");
     puts(n);
     return 0;
 }
