@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char n;
+    char n[100];
     printf("");
     gets(n);
     puts(n);
