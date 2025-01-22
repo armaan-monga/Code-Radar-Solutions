@@ -2,6 +2,6 @@
 int main() {
     char n[100];
     fgets(n,100,stdin);
-    puts("You entered: "n);
+    printf("You enetered: %s",n)
     return 0;
 }
