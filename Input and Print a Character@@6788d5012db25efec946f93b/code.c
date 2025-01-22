@@ -4,6 +4,6 @@ int main() {
     char n;
     printf("");
     scanf("%c",&n);
-    printf("Yoy enetered: %c",n);
+    printf("You enetered: %c",n);
     return 0;
 }
