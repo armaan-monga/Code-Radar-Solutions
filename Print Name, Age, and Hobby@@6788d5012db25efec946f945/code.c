@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&b);
     char c;
     printf("");
-    scanf("%c",&c)
+    scanf("%c",&c);
     printf("Name: %c\n Age: %d\n Hobby: %c\n",a,b,c);
     return 0;
 }
