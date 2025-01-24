@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c,d;
-    cin>>a>>b>>c>>d;
-    cont<<c;
+    float x;
+    scanf("%f",&x);
+    printf("You entered: .4f",x);
     return 0;
 }
