@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char n[100];
+    char str[100];
     printf("");
-    fgets(n,100,stdin);
-    printf("You entered: %s",n);
+    fgets(str,100,stdin);
+    printf("You entered: %s",str);
     return 0;
 }
