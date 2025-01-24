@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
     char n[100];
-    leng=("%s",n);
+    printf("")
     fgets(n,100,stdin);
-    printf("You entered: %s",leng);
+    printf("You entered: %s",n);
     return 0;
 }
