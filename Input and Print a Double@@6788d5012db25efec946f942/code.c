@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 int main(){
     float x;
     if(scanf("%f",&x)!=1){
