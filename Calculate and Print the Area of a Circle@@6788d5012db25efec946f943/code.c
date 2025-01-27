@@ -1,4 +1,4 @@
-#innclude<stdio.h>
+#include<stdio.h>
 int main(){
     float r;
     scanf("%f",&r);
