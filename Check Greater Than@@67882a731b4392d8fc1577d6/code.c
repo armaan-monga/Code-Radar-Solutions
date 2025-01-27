@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
+    int a;
+    int b;
+    scanf("%d",&a);
+    scanf("%d",&b);
     if(a>b){
         return True;}
     else{
