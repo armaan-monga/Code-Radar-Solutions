@@ -5,7 +5,7 @@ int clearbit(int num,int pos){
 int main() {
     int num,pos;
     scanf("%d %d",&num,&pos);
-    int updated_num=clearbit(num,n);
+    int updated_num=clearbit(num,pos);
     printf("%d",updated_num);
     return 0;
 }
