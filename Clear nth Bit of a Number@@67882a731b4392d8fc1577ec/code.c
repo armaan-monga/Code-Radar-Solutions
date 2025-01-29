@@ -1,6 +1,6 @@
 #include <stdio.h>
 int clearbit(int num,int pos){
-    return num & (1 << pos);
+    return num & ~(1 << pos);
 }
 int main() {
     int num,pos;
