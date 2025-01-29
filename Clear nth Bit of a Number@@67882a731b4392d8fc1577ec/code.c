@@ -1,8 +1,11 @@
 #include <stdio.h>
+int clearbit(int num,int pos){
+    return num & (1<<pos);
+}
 int main() {
-    int num,n;
-    scanf("%d %d",&num,&n);
-    int updated_num=cl(num,n);
+    int num,pos;
+    scanf("%d %d",&num,&pos);
+    int updated_num=clearbit(num,n);
     printf("%d",updated_num);
     return 0;
 }
