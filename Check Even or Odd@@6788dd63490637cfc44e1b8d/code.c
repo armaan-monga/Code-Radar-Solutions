@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
     int n;
-    scanf("%D",&n);
+    scanf("%d",&n);
     if (n%=0){
         printf("Even");
     }else{
