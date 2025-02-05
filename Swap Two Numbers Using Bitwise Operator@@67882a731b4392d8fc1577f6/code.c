@@ -13,7 +13,7 @@ int main() {
     a = a ^ b;
 
     // Output the swapped values
-    printf("\nOutput\n"); // Match output format from the image
+     // Match output format from the image
     printf("%d %d\n", a, b); // Print the swapped values separated by space
 
     return 0;
