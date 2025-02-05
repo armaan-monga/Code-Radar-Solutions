@@ -3,11 +3,9 @@
 int main() {
     int decimal;
 
-    // Input the decimal number
-    printf("Input\n"); // Match input format from the image
+    // Input the decimal number // Match input format from the image
     scanf("%d", &decimal);
-
-    printf("\nOutput\n"); // Match output format from the image
+ // Match output format from the image
 
     // Handle the case where the input is 0
     if (decimal == 0) {
