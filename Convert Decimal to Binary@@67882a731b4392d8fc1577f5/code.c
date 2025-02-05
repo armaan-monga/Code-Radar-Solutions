@@ -1,28 +1,28 @@
 #include <stdio.h>
 
 int main() {
-    int decimal;
-    scanf("%d", &decimal);
 
-    
+
+    printf("Input\n");
+    scanf("%d", &decimal);
 
     if (decimal == 0) {
         printf("0\n");
         return 0;
     }
 
-    // No array needed now!
+    int started = 0; // Flag to track if we've started printing 1s
 
-    // Iterate through the bits of the integer (assuming 32-bit)
     for (int i = 31; i >= 0; i--) {
-        // Use bitwise AND to check if the i-th bit is set (1) or not (0)
-        int bit = (decimal >> i) & 1;  // Right shift by i and then AND with 1
+        int bit = (decimal >> i) & 1;
 
-        // Print the bit only if we have encountered the first '1' 
-        // OR if the number is 0 (handled earlier). This avoids leading zeros.
-        if (bit == 1 || i == 0) {  // Print 0 only once if the number is 0.
+        if (bit == 1) {
+            printf("%d", bit);
+            started = 1; // Set the flag
+        } else if (started == 1) { // Print 0s only AFTER we've started printing 1s
             printf("%d", bit);
         }
+        // If the number is not 0, we don't print zeros before the first 1.
     }
     printf("\n");
 
