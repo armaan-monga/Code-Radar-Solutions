@@ -5,11 +5,12 @@ int main() {
     scanf("%c",&n);
     if(isdigit(n)){
         printf("Digit");
-    else if(n==a || n==e||n==i||n==o||n==u){
+    else if(n=='a' || n=='e'||n=='i'||n=='o'||n=='u'){
         printf("Vowel");
     }else{
         printf("Consonant");
-    }}else{
+    }
+    }else{
         printf("Special Character");
     }
     return 0;
