@@ -2,8 +2,6 @@
 
 int main() {
     int decimal;
-
-    printf("Input\n");
     scanf("%d", &decimal);
 
     printf("\nOutput\n");
