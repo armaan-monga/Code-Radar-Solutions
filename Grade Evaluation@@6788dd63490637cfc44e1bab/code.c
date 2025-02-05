@@ -4,7 +4,7 @@ int main() {
     char grade;
 
     // Prompt the user to enter the grade
-    printf("Enter the grade (A, B, C, D, F): ");
+    
     scanf(" %c", &grade); // Note the space before %c to consume any leftover newline
 
     // Use a switch statement to determine the description
