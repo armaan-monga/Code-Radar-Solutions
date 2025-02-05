@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
+    int decimal;
 
-
-    printf("Input\n");
+    
     scanf("%d", &decimal);
 
     if (decimal == 0) {
