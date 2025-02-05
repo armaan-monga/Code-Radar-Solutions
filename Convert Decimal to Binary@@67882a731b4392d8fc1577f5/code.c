@@ -4,7 +4,7 @@ int main() {
     int decimal;
     scanf("%d", &decimal);
 
-    printf("\nOutput\n");
+    
 
     if (decimal == 0) {
         printf("0\n");
