@@ -4,7 +4,7 @@ int main() {
     int month;
 
     // Prompt the user to enter the month number
-    printf("Enter the month number (1-12): ");
+    
     scanf("%d", &month);
 
     // Check if the input is valid (between 1 and 12)
