@@ -1,13 +1,30 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    for(int i=1;;i<=n;i++){
-        for(int space =1; space<=n-i;space++){
-            for(int j = 1;j<=2*i - 1;j++){
-                printf("*");
-            }
-        }printf("\n");
+
+    // Input the number of rows
+    printf("Input\n"); // Match prompt's input format
+    scanf("%d", &n);
+
+    printf("Output\n"); // Match prompt's output format
+
+    // Outer loop for the number of rows
+    for (int i = 1; i <= n; i++) {
+
+        // Print leading spaces (for alignment)
+        for (int space = 1; space <= n - i; space++) {
+            printf(" ");
+        }
+
+        // Print stars for each row
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            printf("*");
+        }
+
+        // Move to the next line after each row
+        printf("\n");
     }
+
     return 0;
 }
