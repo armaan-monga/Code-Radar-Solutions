@@ -4,10 +4,10 @@ int main() {
     int n;
 
     // Input the number of rows
-    printf("Input\n"); // Match prompt's input format
+    // Match prompt's input format
     scanf("%d", &n);
 
-    printf("Output\n"); // Match prompt's output format
+     // Match prompt's output format
 
     // Outer loop for the number of rows
     for (int i = 1; i <= n; i++) {
