@@ -5,6 +5,6 @@ int main(){
         for(int j=i;j<=n;j++){
             printf("%d",j)
         }
-    }printf("\n")
+    }printf("\n");
     return 0;
 }
