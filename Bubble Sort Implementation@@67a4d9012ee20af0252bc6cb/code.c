@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<ni++){
-        scaf("%D",&arr[i]);
+        scaf("%d",&arr[i]);
     }
     bubbleSort(arr,n);
     printArray(arr,n);
