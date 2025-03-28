@@ -16,7 +16,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     findmaxmin(arr,maxmin,n);
-    printf("%d",maxmin[0]);
+    printf("%d ",maxmin[0]);
     printf("%d",maxmin[1]);
     return 0;
 }
