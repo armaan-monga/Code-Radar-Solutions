@@ -1,5 +1,5 @@
 #include<stdio.h>
-void findmaxmin(inr arr[],int *max,int *min,int n){
+void findmaxmin(int arr[],int *max,int *min,int n){
     *min=*max=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]< *min){
