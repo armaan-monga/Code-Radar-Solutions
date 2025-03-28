@@ -7,9 +7,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     scanf("%d",&k);
-    int temp=a[0];
-    for(i=0;i<n-1;i++){
-        a[i]=a[i+1];
+    int temp=a[n-1];
+    for(i=0;i>=1;i--){
+        a[i]=a[i-1];
     }a[i]=temp;
     for(i=0;i<n;i++){
         printf("%d\n",a[i]);
