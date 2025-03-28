@@ -16,4 +16,4 @@ int main(){
         printf("%d\n",a[i]);
     }
     return 0;
-} this code doesnot pass all the test cases
+}
