@@ -1,6 +1,6 @@
 #include<stdio.h>
 void findmaxmin(int arr[],int *max,int *min,int n){
-    *min=*max=arr[0];
+    *min = *max = arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]< *min){
             min=arr[i];
