@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int a[1000], n, k, i, j;
+    int a[1000], n, k, i;
     scanf("%d", &n);
     for (i = 0; i < n; i++) {
         scanf("%d", &a[i]);
