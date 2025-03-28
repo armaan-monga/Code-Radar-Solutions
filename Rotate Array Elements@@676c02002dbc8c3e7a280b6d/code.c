@@ -9,7 +9,7 @@ int main() {
     }
     scanf("%d", &k);
     k = k % n;
-    for (j = 0; j < k; j++) {
+    for (i = 0; i < k; i++) {
         int temp = a[n - 1];
         for (i = n - 1; i > 0; i--) {
             a[i] = a[i - 1];
