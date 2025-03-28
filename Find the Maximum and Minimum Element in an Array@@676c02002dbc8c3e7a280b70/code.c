@@ -3,9 +3,9 @@ void findmaxmin(int arr[],int maxmin[],int n){
     maxmin[0]=maxmin[1]=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]< maxmin[0]){
-            maxmin=arr[i];
+            maxmi[0]n=arr[i];
         }if(arr[i]> maxmin[1]){
-            maxmin=arr[i];
+            maxmin[1]=arr[i];
         }
     }
 }
