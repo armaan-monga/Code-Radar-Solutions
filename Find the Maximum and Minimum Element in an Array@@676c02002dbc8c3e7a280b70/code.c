@@ -17,6 +17,6 @@ int main(){
     }
     findmaxmin(arr,min,max,n);
     printf("%d",min);
-    printf("%d",maax)l
+    printf("%d",max);
     return 0;
 }
