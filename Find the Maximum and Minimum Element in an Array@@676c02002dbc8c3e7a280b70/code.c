@@ -1,22 +1,20 @@
 #include<stdio.h>
-void findmaxmin(int arr[],int maxmin[],int n){
-    maxmin[0]=maxmin[1]=arr[0];
-    for(int i=0;i<n;i++){
-        if(arr[i]< maxmin[0]){
-            maxmin[0]=arr[i];
-        }if(arr[i]> maxmin[1]){
-            maxmin[1]=arr[i];
-        }
-    }
-}
 int main(){
-    int n,arr[1000],maxmin[1000];
+    int n;
     scanf("%d",&n);
+    int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    findmaxmin(arr,maxmin,n);
-    printf("%d ",maxmin[0]);
-    printf("%d",maxmin[1]);
-    return 0;
+    int min=10000;
+    for(int i=0;i<n;i++){
+        if(arr[i]<min); min=arr[i];
+    }
+    int max=arr[0];
+    for(int i=0;i<n;i++){
+        if(arr[i]>max); max=arr[i];
+    }
+    printf("%d ",min);
+    printf("%d",max);
+    
 }
