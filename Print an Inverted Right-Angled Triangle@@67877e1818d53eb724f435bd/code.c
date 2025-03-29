@@ -7,7 +7,7 @@ int main() {
     }
     if(n==2){
         printf("* *");
-        printf("*")
+        printf("*");
     }
     return 0;
 }
