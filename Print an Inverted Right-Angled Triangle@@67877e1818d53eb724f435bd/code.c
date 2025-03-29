@@ -6,7 +6,8 @@ int main() {
         printf("*");
     }
     if(n==2){
-        printf("");
+        printf("* *");
+        printf("*")
     }
     return 0;
 }
