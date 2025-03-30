@@ -13,10 +13,10 @@ int main(){
                     }
     }int smax;
     for(int i=0;i<n;i++){
-        if(smax>max){
-            printf("%d",smax);
+        if(arr[i]>max){
+            smax=arr[i];
 
-        }
+        }printf("%d";smax);
     }
     return 0;
 }
